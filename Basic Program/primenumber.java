@@ -2,8 +2,8 @@ import java.util.*;
 public class primenumber {
     public static void main(String[] args) {
        int i, m=0; 
-       Scanner sc = new Scanner(System.in);
-       int n = sc.nextInt();
+      
+       int n = 4;
        m=n/2;
        if(n==0||n==1){
         System.out.println(n+"is not prime number");
